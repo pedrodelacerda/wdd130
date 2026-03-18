@@ -1,10 +1,16 @@
+:root {
+    --height: auto;
+    --padding: 1rem;
+
+}
+
 main {
     max-width: 840px;
 }
 
 main img {
     width: 150px;
-    height: auto;
+    height: var(--height);
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px grey;
@@ -14,7 +20,7 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: var(--padding);
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -22,7 +28,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 nav {
@@ -42,7 +48,7 @@ h1 {
 
 img {
     width: 150px;
-    height: auto;
+    height: var(--height);
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
