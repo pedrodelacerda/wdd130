@@ -79,6 +79,16 @@ header nav {
     color: #fff;
 }
 
+.history {
+    position: relative;
+    top: 00px;
+}
+
+.adventure {
+    position: relative;
+    top: 260px;
+}
+
 .clients div {
     position: relative;
 }
@@ -94,17 +104,13 @@ header nav {
 
 section {
     position: absolute;
-    bottom: -120px;
+    top: 550px;
     text-align: justify;
 }
 
-.history h2 {
-    top: 1000px;
-}
-
-.adventure h2 {
-    position: absolute;
-    bottom: -220px;
+section p {
+    position: relative;
+    top: 10px;
 }
 
 .clients img {
@@ -114,10 +120,15 @@ section {
 
 footer {
     position: relative;
-    bottom: -1000px;
+    top: 800px;
 }
 
 footer img {
-    width: 80px;
+    width: 30px;
     height: auto;
+    margin: 0 0 15px;
+}
+
+footer p {
+    margin: 0 0 15px;
 }
