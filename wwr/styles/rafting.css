@@ -28,6 +28,11 @@ footer {
 header img {
     width: 100px;
     height: auto;
+    display: inline;
+}
+
+header nav {
+    float: right;
 }
 
 .clients {
@@ -38,11 +43,24 @@ header img {
     background-color: var(--secondary-color);
 }
 
+.clients img {
+    width: 250px;
+    height: auto;
+}
+
+.clients article {
+    /* position: absolute; */
+}
+
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     height: 250px;
     font-size: 500%;
+}
+
+.clients div {
+    position: relative;
 }
 
 nav,
@@ -60,6 +78,10 @@ article p {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.hero div {
+    position: relative;
 }
 
 .hero {
@@ -84,7 +106,7 @@ article p {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
 }
 
 .hero article img {
