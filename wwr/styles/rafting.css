@@ -16,13 +16,27 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 header,
 main,
 footer {
-    width: 90%;
-    margin: 30px;
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav. p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
 }
 
 header img {
@@ -32,48 +46,8 @@ header img {
 }
 
 header nav {
-    float: right;
-}
-
-.clients {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    text-align: justify;
-    background-color: var(--secondary-color);
-}
-
-.clients img {
-    width: 250px;
-    height: auto;
-}
-
-.clients article {
-    /* position: absolute; */
-}
-
-h1 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    height: 250px;
-    font-size: 500%;
-}
-
-.clients div {
-    position: relative;
-}
-
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
-article p {
-    position: relative;
-    z-index: 10;
+    display: inline;
+    text-decoration: none;
 }
 
 .socialmedia a {
@@ -84,19 +58,19 @@ article p {
     position: relative;
 }
 
-.hero {
-    position: relative;
-}
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 0px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -105,17 +79,45 @@ article p {
     color: #fff;
 }
 
-.hero article {
+.clients div {
+    position: relative;
+}
+
+.clients article {
+    bottom: 109px;
     position: absolute;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-}
-
-footer nav img {
-    width: 25px;
-    height: auto;
     background-color: var(--accent2-color);
+    opacity: 0.75;
+    display: flex;
+    text-align: justify;
+}
+
+section {
+    position: absolute;
+    bottom: -120px;
+    text-align: justify;
+}
+
+.history h2 {
+    top: 1000px;
+}
+
+.adventure h2 {
+    position: absolute;
+    bottom: -220px;
+}
+
+.clients img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    position: relative;
+    bottom: -1000px;
+}
+
+footer img {
+    width: 80px;
+    height: auto;
 }
