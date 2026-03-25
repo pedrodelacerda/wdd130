@@ -17,6 +17,7 @@ body {
 
 main {
     max-width: 840px;
+    grid-column: 2/3;
 }
 
 main img {
@@ -38,6 +39,8 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -54,17 +57,23 @@ aside h2 {
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-family: lato;
 }
 
 h1 {
     color: steelblue;
     padding: .5rem;
+    border-bottom: 2px solid steelblue;
 }
 
 img {
@@ -96,4 +105,18 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
