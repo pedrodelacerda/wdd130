@@ -119,12 +119,11 @@ h1 {
     top: 20px;
     left: 0;
     width: 100%;
-    padding: 16px;
+    padding: 10px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
-    padding: 10px;
 }
 
 .hero article img {
@@ -139,11 +138,6 @@ h1 {
     top: 10px;
 }
 
-.adventure {
-    position: relative;
-    /* top: 310px; */
-}
-
 .clients div {
     position: relative;
 }
@@ -153,7 +147,6 @@ h1 {
     position: absolute;
     background-color: var(--accent2-color);
     opacity: 0.75;
-    display: flex;
     text-align: justify;
     width: 805px;
     display: grid;
