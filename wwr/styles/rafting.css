@@ -215,6 +215,17 @@ footer {
     /* top: 950px; */
 }
 
+.socialmedia {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 600px 1fr 1fr 1fr;
+}
+
+footer a {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
 footer img {
     width: 30px;
     height: auto;
@@ -222,5 +233,7 @@ footer img {
 }
 
 footer p {
-    margin: 0 0 15px;
+    grid-column: 1/2;
+    margin: 10px 0 15px;
+
 }
