@@ -90,6 +90,11 @@ header nav {
     height: 600px;
 }
 
+.imghero {
+    position: absolute;
+    z-index: -1;
+}
+
 /* .hero img {
     display: block;
     width: 100%;
@@ -205,8 +210,8 @@ section p {
 }
 
 .adventure img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: auto;
     background-color: var(--accent2-color);
 }
 
