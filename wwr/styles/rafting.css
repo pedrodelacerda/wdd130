@@ -104,7 +104,7 @@ header nav {
 }
 
 h1 {
-    position: absolute;
+    /* position: absolute; */
 }
 
 .hero h1 {
@@ -201,10 +201,14 @@ section p {
     background-color: var(--accent2-color);
 }
 
-h2,
-h4 {
+.companyinfo h1,
+h2 {
     text-align: center;
     color: var(--black-color);
+}
+
+h2 {
+    font-size: 18px;
 }
 
 iframe {
@@ -236,8 +240,8 @@ span {
     text-align: start;
 }
 
-input[type="text"],
-input[type="email"],
+.name input,
+.email input,
 textarea {
     width: 100%;
     border-radius: 4px;
