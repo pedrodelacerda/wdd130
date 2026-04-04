@@ -284,6 +284,7 @@ code {
 .message-area textarea {
     grid-row: 2/3;
     width: 340px;
+    border: 1px solid var(--black-color);
 }
 
 .radiogroup {
