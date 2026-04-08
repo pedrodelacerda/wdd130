@@ -21,9 +21,15 @@ body {
     background-color: var(--secondary-color);
 }
 
-header,
+/* header,
 main,
 footer {
+    width: 840px;
+    margin: 0 auto;
+} */
+
+.about,
+.contact {
     width: 840px;
     margin: 0 auto;
 }
@@ -393,4 +399,33 @@ footer p {
     grid-column: 1/2;
     margin: 10px 0 15px;
 
+}
+
+/* Home Page Style */
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+}
+
+.index article {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+header.index,
+footer.index {
+    width: 840px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-family: "Permanent Marker", cursive;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    color: var(--accent2-color);
+    font-size: 80px;
+    text-align: center;
 }
