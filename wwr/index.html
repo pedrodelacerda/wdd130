@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-      content="The ultimate rafting experience starts here. Modern equipment, expert guides, and pure fun on the most amazing rivers. Book your spot now!">
+      content="Experience more than just the thrill. Discover premium white water rafting expeditions through majestic canyons and hidden valleys. Book your adventure today!">
     <meta name="author" content="Pedro Henrique Cordeiro de Lacerda Ribeiro">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,29 +34,57 @@
                   alt="Four rafters navigating Class IV rapids on a blue and red inflatable catamaran boat in a narrow canyon.">
             </article>
         </div>
-
-        <section class="history-container">
-            <h2 class="history">History</h2>
-            <p>​Founded in 2005, White Water Rafting began with a simple dream: to share the raw
-                .</p>
-        </section>
+        <div class="slider">
+            <input type="radio" name="tabs" id="img1" checked>
+            <input type="radio" name="tabs" id="img2">
+            <input type="radio" name="tabs" id="img3">
+            <div class="slides">
+                <div class="slide s1">
+                    <img src="images/easy-one.jpg" alt="Easy Level">
+                    <div class="description">River Breeze Packages. Peaceful waters for first-time
+                        explorers.</div>
+                </div>
+                <div class="slide">
+                    <img src="images/midle-one.jpg" alt="Midle Level">
+                    <div class="description">Wild Current Packages. The perfect balance of speed and
+                        scenery.</div>
+                </div>
+                <div class="slide">
+                    <img src="images/hard-one.jpg" alt="Hard Level">
+                    <div class="description">Mountain Pulse! Conquer the steepest drops and
+                        strongest
+                        rapids.</div>
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="img1" class="bar"></label>
+                <label for="img2" class="bar"></label>
+                <label for="img3" class="bar"></label>
+            </div>
+        </div>
         <section class="adventure">
             <h2>Adventure Awaits You!</h2>
-            <figure><img src="images/rafting-1.jpg" alt="Rafting Activities">
-                <figcaption></figcaption>
-            </figure>
-            <figure><img src="images/rafting-2.jpg" alt="Rafting Activities">
-                <figcaption></figcaption>
-            </figure>
-            <figure><img src="images/rafting-3.jpg" alt="Rafting Activities">
-                <figcaption></figcaption>
-            </figure>
-            <figure><img src="images/rafting-4.jpg" alt="Rafting Activities">
-                <figcaption></figcaption>
-            </figure>
-            <figure><img src="images/rafting-5.jpg" alt="Rafting Activities">
-                <figcaption></figcaption>
-            </figure>
+            <h3>Rafting is just the beginning. Our expeditions take you deep into ancient canyons
+                and
+                hidden meadows
+                where time stands still. Immerse yourself in the tranquility of the great outdoors
+                between every
+                rapid.
+                If you want to stay up to date on all the latest news about our super adventures, be
+                sure to subscribe to our newslatter;
+                it is quick and easy!</h3>
+            <div class="news-latter">
+                <span>White Water Rafting New's Latter</span>
+                <div class="form-item name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Type your name here">
+                </div>
+                <div class="form-item email">
+                    <label for="mail">Email</label>
+                    <input type="text" id="mail" name="mail" placeholder="Type your email here">
+                </div>
+                <button type="submit">Subscribe</button>
+            </div>
         </section>
     </main>
     <footer class="index">
